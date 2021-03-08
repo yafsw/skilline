@@ -17,6 +17,7 @@ const HeaderStyle = Styled.header`
     width: 100%;
     background-color: #FFF2E1;
     height: 20rem;
+    padding: 2.4rem;
 `;
 
 export default memo(Header);
