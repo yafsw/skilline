@@ -7,6 +7,6 @@ const Home = () => {
             <Header />
         </>
     );
-}:
+};
 
 export default memo(Home);
