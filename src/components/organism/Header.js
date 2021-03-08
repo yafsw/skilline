@@ -16,8 +16,12 @@ const HeaderStyle = Styled.header`
     align-items: center;
     width: 100%;
     background-color: #FFF2E1;
-    height: 20rem;
+    min-height: 20rem;
     padding: 2.4rem;
+
+    @media(max-width: 64rem) {
+        min-height: 0;
+    }
 `;
 
 export default memo(Header);
