@@ -17,7 +17,7 @@ const Span = props => {
 };
 
 const SpanStyle = Styled.span`
-    background-color: ${props => props.bgcolor ? props.bgcolor : 'white'};
+    background-color: ${props => props.bgcolor ? props.bgcolor : 'transparent'};
     padding: ${props => props.padding ? props.padding : '0'};
     font-weight: ${props => props.fweight ? props.fweight : 'normal'};
     font-size: ${props => props.fsize ? props.fsize : '2.4rem'};
