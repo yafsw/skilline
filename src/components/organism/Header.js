@@ -1,10 +1,11 @@
 import React, { memo } from 'react';
 import Styled from 'styled-components';
+import Nav from '../molecules/Nav';
 
 const Header = () => {
     return (
         <HeaderStyle>
-
+            <Nav />
         </HeaderStyle>
     );
 };
