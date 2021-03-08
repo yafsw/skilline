@@ -15,6 +15,8 @@ const HeaderStyle = Styled.header`
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #FFF2E1;
+    height: 20rem;
 `;
 
 export default memo(Header);
