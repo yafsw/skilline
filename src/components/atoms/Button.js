@@ -9,6 +9,7 @@ const Button = props => {
             fweight={props.fweight}
             border={props.border}
             fsize={props.fsize}
+            color={props.color}
         >   {props.children}
         </ButtonStyle>
     );
@@ -20,6 +21,7 @@ const ButtonStyle = Styled.button`
     font-weight: ${props => props.fweight ? props.fweight : 'normal'};
     font-size: ${props => props.fsize ? props.fsize : '2.4rem'};
     border: ${props => props.border ? props.border : 'none'};
+    color: ${props => props.color ? props.color : 'black'};
     border-radius: 8rem;
     outline: none;
     display: flex;
