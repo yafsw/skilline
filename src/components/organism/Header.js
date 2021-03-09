@@ -22,7 +22,7 @@ const HeaderStyle = Styled.header`
 
     @media(max-width: 68rem) {
         min-height: 0;
-        padding: 2.4rem 1.2rem;
+        padding: 2.4rem 3.6rem 2.4rem 1.2rem;
     }
 `;
 
