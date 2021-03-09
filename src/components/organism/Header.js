@@ -1,17 +1,20 @@
 import React, { memo } from 'react';
 import Styled from 'styled-components';
+import Bar from '../molecules/Bar';
 import Nav from '../molecules/Nav';
 
 const Header = () => {
     return (
         <HeaderStyle>
             <Nav />
+            <Bar />
         </HeaderStyle>
     );
 };
 
 const HeaderStyle = Styled.header`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -22,7 +25,7 @@ const HeaderStyle = Styled.header`
 
     @media(max-width: 68rem) {
         min-height: 0;
-        padding: 2.4rem 3.6rem 2.4rem 1.2rem;
+        padding: 2.4rem 1.2rem;
     }
 `;
 
