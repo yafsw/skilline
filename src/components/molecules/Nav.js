@@ -57,6 +57,10 @@ const NavStyle = Styled.nav`
     width: 100%;
     max-width: 164rem;
 
+    @media(max-width: 68rem) {
+        padding-right: 2.4rem;
+    }
+
     div:nth-child(2) {
         display: flex;
         justify-content: center;
