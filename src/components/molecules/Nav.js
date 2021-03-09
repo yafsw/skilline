@@ -3,8 +3,12 @@ import Styled from 'styled-components';
 import Button from '../atoms/Button';
 import Logo from '../atoms/Logo';
 import Span from '../atoms/Span';
+import { CgMenu, CgClose } from 'react-icons/cg';
+import { useApp } from '../../cotext';
 
 const Nav = () => {
+    const { state, action } = useApp();
+
     return (
         <NavStyle>
             <div>
@@ -35,6 +39,13 @@ const Nav = () => {
                     </Button>
                 </div>
             </div>
+            <div>
+                {
+                    state.bar
+                        ? <CgClose className="handlebar" onClick={action.handleBar} />
+                        : <CgMenu className="handlebar" onClick={action.handleBar} />
+                }
+                </div>
         </NavStyle>
     );
 };
@@ -76,6 +87,14 @@ const NavStyle = Styled.nav`
                 }
             }
         }
+    }
+
+    .handlebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        transition: .3s ease-in-out;
     }
 `;
 
