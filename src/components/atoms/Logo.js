@@ -16,7 +16,7 @@ const LogoStyle = Styled.div`
     span {
         font-size: 3.2rem;
         color: black;
-        letter-spacing: 0.04rem;
+        letter-spacing: 0.16rem;
         font-weight: 700;
         position: absolute;
         top: 50%;
@@ -25,8 +25,8 @@ const LogoStyle = Styled.div`
     }
 
     div {
-        width: 5.6rem;
-        height: 5.6rem;
+        width: 5.8rem;
+        height: 5.8rem;
         border-radius: .6rem;
         background-color: #65DAFF;
         transform: rotate(45deg);
