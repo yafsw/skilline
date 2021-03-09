@@ -18,9 +18,11 @@ const HeaderStyle = Styled.header`
     background-color: #FFF2E1;
     min-height: 20rem;
     padding: 2.4rem;
+    transition: .3s ease-in-out;
 
-    @media(max-width: 64rem) {
+    @media(max-width: 68rem) {
         min-height: 0;
+        padding: 2.4rem 1.2rem;
     }
 `;
 
