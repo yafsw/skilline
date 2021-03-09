@@ -56,7 +56,7 @@ const NavStyle = Styled.nav`
             justify-content: center;
             align-items: center;
 
-            @media(max-width: 64rem) {
+            @media(max-width: 68rem) {
                 display: none;
             }
 
