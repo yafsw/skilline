@@ -1,10 +1,10 @@
-import React, { createContext, useCallback, useReducer } from 'react';
+import React, { createContext, useCallback, useContext, useReducer } from 'react';
 import reducer from './reducer';
 import initialState from './state';
 
 const AppContext = createContext();
 
-export const useApp = () => useApp(AppContext);
+export const useApp = () => useContext(AppContext);
 
 export const AppProvider = props => {
     const [state, dispatch] = useReducer(reducer, initialState);
