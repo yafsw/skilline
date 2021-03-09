@@ -89,12 +89,20 @@ const NavStyle = Styled.nav`
         }
     }
 
-    .handlebar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 4rem;
-        transition: .3s ease-in-out;
+    div:nth-child(3) {
+        display: none;
+
+        @media(max-width: 68rem) {
+            display: flex;
+        }
+
+        .handlebar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4rem;
+            transition: .3s ease-in-out;
+        }
     }
 `;
 
