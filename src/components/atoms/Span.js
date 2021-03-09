@@ -27,6 +27,7 @@ const SpanStyle = Styled.span`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s ease-in-out;
 `;
 
 export default memo(Span);
