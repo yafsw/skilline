@@ -7,7 +7,7 @@ const P = props => {
             fweight={props.fweight}
             fsize={props.fsize}
             color={props.color}
-            alig={props.align}
+            align={props.align}
         >   {props.children}
         </PStyle>
     );
