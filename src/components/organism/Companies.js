@@ -5,7 +5,7 @@ import P from '../atoms/P';
 const Companies = () => {
     return (
         <CompaniesStyle>
-            <P fsize="2.8rem" fweight="500" color="#696984">
+            <P fsize="2.8rem" fweight="500" color="#696984" align="center">
                 Trusted by 5.000+ Companies Worldwide
             </P>
         </CompaniesStyle>
