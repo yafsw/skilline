@@ -2,6 +2,7 @@ import React, { memo } from 'react';
 import Styled from 'styled-components';
 import H2 from '../atoms/H2';
 import P from '../atoms/P';
+import CloudSoftware from '../molecules/CloudSoftware';
 
 const AIO = () => {
     return (
@@ -10,6 +11,20 @@ const AIO = () => {
             <P color="#696984" align="center">
                 Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.
             </P>
+            <div>
+                <CloudSoftware
+                    h3="Online Billing, Invoicing, & Contracts"
+                    p="Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts"
+                />
+                <CloudSoftware
+                    h3="Easy Scheduling & Attendance Tracking"
+                    p="Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance"
+                />
+                <CloudSoftware
+                    h3="Customer Tracking"
+                    p="Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization      "
+                />
+            </div>
         </AIOStyle>
     );
 };
