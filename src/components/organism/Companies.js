@@ -5,7 +5,7 @@ import P from '../atoms/P';
 const Companies = () => {
     return (
         <CompaniesStyle>
-            <P fweight="500" fsize="2.8rrem" color="#696984">
+            <P fsize="2.8rem" fweight="500" color="#696984">
                 Trusted by 5.000+ Companies Worldwide
             </P>
         </CompaniesStyle>
@@ -19,6 +19,7 @@ const CompaniesStyle = Styled.section`
     align-items: center;
     width: 100%;
     max-width: 128rem;
+    padding: 4.8rem;
 `;
 
 export default memo(Companies);
