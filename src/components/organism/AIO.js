@@ -24,8 +24,13 @@ const AIOStyle = Styled.section`
 
     .title {
         font-weight: bold;
-        font-size: 5.4rem;
+        font-size: 3.6rem;
         color: #F48C06;
+    }
+
+    p {
+        margin: 3.6rem 0;
+        max-width: 84rem;
     }
 `;
 
