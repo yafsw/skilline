@@ -43,6 +43,15 @@ const HeadingStyle = Styled.section`
     border-radius: 0 0 15% 15%;
     overflow: hidden;
     padding: 0 4.8rem;
+    margin-bottom: 4.8rem;
+
+    @media(max-width: 92rem) {
+        border-radius: 0 0 5% 5%;
+    }
+
+    @media(max-width: 68rem) {
+        border-radius: 0;
+    }
 
     .heading {
         display: flex;
