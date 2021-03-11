@@ -15,7 +15,11 @@ const CloudSoftware = props => {
 const CloudSoftwareStyle = Styled.div`
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    justify-content: space-between;
+    height: 43rem;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    padding: 4.8rem;
 `;
 
 export default memo(CloudSoftware);
