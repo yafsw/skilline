@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import Companies from '../components/organism/Companies';
 import Header from '../components/organism/Header';
 import Heading from '../components/organism/Heading';
 
@@ -8,6 +9,7 @@ const Home = () => {
             <Header />
             <main>
                 <Heading />
+                <Companies />
             </main>
         </>
     );
