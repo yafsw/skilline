@@ -11,7 +11,7 @@ const AIO = () => {
             <P color="#696984" align="center">
                 Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.
             </P>
-            <div>
+            <div className="cloud-software">
                 <CloudSoftware
                     h3="Online Billing, Invoicing, & Contracts"
                     p="Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts"
@@ -46,6 +46,20 @@ const AIOStyle = Styled.section`
     p {
         margin: 3.6rem 0;
         max-width: 84rem;
+    }
+
+    .cloud-software {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(45rem, 1fr));
+        grid-auto-rows: 43rem;
+        place-items: center;
+        grid-gap: 5.6rem;
+        width: 100%;
+        max-width: 148rem;
+
+        p {
+            margin: 0;
+        }
     }
 `;
 
