@@ -15,14 +15,20 @@ const AIO = () => {
                 <CloudSoftware
                     h3="Online Billing, Invoicing, & Contracts"
                     p="Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts"
+                    img="/assets/img/invoice.png"
+                    bgimg="#5B72EE"
                 />
                 <CloudSoftware
                     h3="Easy Scheduling & Attendance Tracking"
                     p="Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance"
+                    img="/assets/img/calendar.png"
+                    bgimg="#F48C06"
                 />
                 <CloudSoftware
                     h3="Customer Tracking"
-                    p="Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization      "
+                    p="Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization"
+                    img="/assets/img/customer.png"
+                    bgimg="#29B9E7"
                 />
             </div>
         </AIOStyle>
