@@ -47,6 +47,18 @@ const CloudSoftwareStyle = Styled.div`
         height: 100%;
         padding: 12.8rem 4.8rem 6rem;
     }
+
+    @media(max-width: 48rem) {
+        height: auto;
+
+        h3 {
+            margin-bottom: 2.4rem;
+        }
+
+        &:nth-child(2), &:nth-child(3) {
+            margin-top: 5.6rem;
+        }
+    }
 `;
 
 const Img = Styled.div`
