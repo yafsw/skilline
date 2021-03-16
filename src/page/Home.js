@@ -4,6 +4,7 @@ import AIO from '../components/organism/AIO';
 import Companies from '../components/organism/Companies';
 import Header from '../components/organism/Header';
 import Heading from '../components/organism/Heading';
+import WhatSkilline from '../components/organism/WhatSkilline';
 
 const Home = () => {
     return (
@@ -12,7 +13,8 @@ const Home = () => {
             <Main>
                 <Heading />
                 <Companies />
-                <AIO /> 
+                <AIO />
+                <WhatSkilline />
             </Main>
         </>
     );
