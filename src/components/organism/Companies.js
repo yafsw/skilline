@@ -27,7 +27,7 @@ const CompaniesStyle = Styled.section`
     align-items: center;
     width: 100%;
     max-width: 148rem;
-    padding: 4.8rem;
+    padding: 6.4rem 4.8rem;
 
     p {
         margin-bottom: 3.6rem;
