@@ -20,12 +20,17 @@ const WhatSkillineStyle = Styled.section`
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding: 4.8rem;
+        padding: 6.4rem 4.8rem;
 
         .title {
             font-weight: bold;
             font-size: 3.6rem;
             color: #F48C06;
+        }
+
+        p {
+            margin: 3.6rem 0 12rem;
+            max-width: 104rem;
         }
 `;
 
