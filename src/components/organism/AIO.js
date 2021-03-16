@@ -50,18 +50,23 @@ const AIOStyle = Styled.section`
     }
 
     p {
-        margin: 3.6rem 0;
+        margin: 3.6rem 0 12rem;
         max-width: 84rem;
     }
 
     .cloud-software {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(45rem, 1fr));
-        grid-auto-rows: 43rem;
+        grid-auto-rows: 48rem;
         place-items: center;
         grid-gap: 5.6rem;
         width: 100%;
         max-width: 148rem;
+
+        @media(max-width: 48rem) {
+            display: flex;
+            flex-direction: column;
+        }
 
         p {
             margin: 0;
