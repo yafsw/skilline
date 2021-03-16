@@ -41,7 +41,7 @@ const AIOStyle = Styled.section`
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 4.8rem;
+    padding: 6.4rem 4.8rem;
 
     .title {
         font-weight: bold;
